@@ -157,3 +157,12 @@ width: 100%;
     color: black;
     background-color: white;
 }
+
+section .container{
+    margin-left: 24%;
+    max-width: 50%;
+}
+
+section form{
+    height: 600px;
+}
