@@ -68,8 +68,9 @@ width: 100%;
     margin-left: 1rem;
   }
 
-  section{
+.imagenes{/*Cambio de selector de clase section correspondiente al apartado de portafolio*/
       background-color: white;
+      padding: 6rem 0;/* Se ajusta el padding superior e inferior*/
   }
   .linea-parte2{
     width: 100%;
@@ -99,4 +100,60 @@ width: 100%;
 
 .hover-images:hover{
     color: #19bc9b!important;
+}
+/*Seccion About*/
+.about{
+    background-color: #19bc9b;
+    padding: 6rem 0;
+    margin-bottom: 0;
+}
+
+.about h2{
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+.about .container{
+    color: white;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.about .container .row{
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-weight:normal;
+}
+
+.ms-auto{
+    margin-left: auto;
+}
+
+.me-auto{
+    margin-right: auto;
+}
+
+.about .enlace{
+    margin-top: 1.5rem;
+}
+
+.about .enlace a{
+    color: white;
+    border: solid white;
+    border-width: 2.6px;
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.pl{
+    margin-right: 9px;
+}
+
+.about .enlace a:hover{
+    color: black;
+    background-color: white;
 }
