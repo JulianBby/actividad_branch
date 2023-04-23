@@ -3,7 +3,7 @@ nav {
     text-transform: uppercase;
 }
 nav ul li:hover a {
-    color: #6e6e6ef8!important;
+    color: #19bc9b!important;
 }
 
 body{
@@ -94,32 +94,9 @@ width: 100%;
     font-weight: 700;
     margin-bottom: 0;
     text-align: center!important;
+    margin-top: 3rem;
 }
 
-.imagenes{
-    margin: 1.25rem 0 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 4.5rem;
+.hover-images:hover{
+    color: #19bc9b!important;
 }
-.imagenes-variadas{
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center!important;
-    align-content: center;
-    justify-content: center;
-}
-
-
-.imagenes-variadas img{
-    padding: 10pxd;
-    width: 400px;
-    height: 300px;
-    margin: 0%;
-    border-radius: 15px;
-}
-
