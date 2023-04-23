@@ -1,3 +1,7 @@
-.container{
-    padding: 30px;
+nav {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+nav ul li:hover a {
+    color: red!important;
 }
